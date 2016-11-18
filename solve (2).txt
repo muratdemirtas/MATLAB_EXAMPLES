@@ -1,0 +1,19 @@
+%syms x
+S=x^2-4*x+4 
+solve(S) %bunun koklerini bulur.
+
+%syms a b c x
+S=a*x^2+b*x+c;
+solve(S,b)
+
+% syms x
+solve('cos(2*x)+sin(x)=1')
+
+% soru
+x1+3x2+x3=2
+2x1-x2+3x3=1
+x1+2x2-x3=3  yap.
+syms x1 x2 x3
+[x1,x2,x3]=solve(x1+3*x2+x3-2, 2*x1-x2+3*x3-1,x1+2*x2-x3-3)
+
+% dsolve('Dy=sin(t)')

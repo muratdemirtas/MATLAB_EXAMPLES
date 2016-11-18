@@ -1,0 +1,1 @@
+stringin uzunlugunu bulmak için length,A(i) a nýn i ninci elemaný

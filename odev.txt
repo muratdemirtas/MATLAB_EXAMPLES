@@ -1,0 +1,19 @@
+%x ve y vererek kareler farkýný tanýmla
+
+anamenu=0;
+
+while 1
+    anamenu=menu('Kopek Kimlik Kayýt','Kopek Kayýt','Kopek Goster','Çýkýþ');
+    
+    switch anamenu
+        case 1
+            
+            A=input('kopek(1).adi= ','s');
+            B=input('kopek(1).cinsi= ','s');
+            C=input('kopek(1).yasi= ');
+            
+         
+        
+    
+            
+

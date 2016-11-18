@@ -1,0 +1,17 @@
+clear all;
+clc;
+
+A=input('A ','s');
+B=input('B ','s');
+
+%x=length(A);  %Bunlar için komut var
+%y=length(B);
+
+%for i=1:1:y
+    %A(x+i)=B(i);
+%end
+
+%A
+
+C=strcat(A,B)
+

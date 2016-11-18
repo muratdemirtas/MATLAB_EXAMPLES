@@ -1,0 +1,11 @@
+clear all;  % -3 ile +7 arasýnda rastgele matris oluþturma
+clc;
+A=round(10*rand(6,3));
+
+[Satir Sutun]=size(A);  %size: herhangi bir matrisin satýr ve sütün deðerlerini döndürüyor
+
+B=ones(Satir,Sutun);
+
+C=A-3*B;
+C
+%2. ve 4.satýrýn yerlerini deððiþtirme

@@ -1,0 +1,18 @@
+clear all;
+clc;
+
+A=input('Beþ Haneli Bir Sayý Giriniz=');
+
+H1=floor(A/10000)
+A=mod(A,10000);
+
+H2=floor(A/1000);
+A=mod(A,1000);
+
+floor(A/100);
+mod(A,100);
+
+floor(A/10);
+mod(A,10);
+
+fprintf('Sayý hanelerine ayrýlmýþ þekilde  %d  %d  %d  %d  %d ''dir\n',H1,H2,H3,H4,A);

@@ -1,0 +1,7 @@
+clear all;
+clc;
+
+e=input('Sayý gir: ');
+f=input('2.sayýyý gir: ');
+
+c=topla(e,f)

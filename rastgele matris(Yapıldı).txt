@@ -1,0 +1,8 @@
+clear all;
+clc;
+A=round(10*rand(6,3))
+
+B=A;
+
+B(1,:)=A(3,:);     %A(3,:)   3.SATIR TÜM SÜTUNLAR YANÝ 3.SATIR DEMEK
+B(3,:)=A(1,:);

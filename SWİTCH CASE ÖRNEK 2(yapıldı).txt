@@ -1,0 +1,18 @@
+clear all,clc;
+c=input('notu girin: ','s');
+switch (c)
+    case 'A'
+        fprintf('Pekiyi')
+    case 'B'
+        fprintf('Ýyi')
+    case 'C'
+        fprintf('Orta')
+    case 'D'
+        fprintf('Zayýf')
+    case 'E'    %karekter yazýnca týrnak koy
+        fprintf('çok zayýf')
+    case 'F'
+        fprintf('kaldý')
+    otherwise
+        fprintf('yanlýþ karekter girdiniz')
+end

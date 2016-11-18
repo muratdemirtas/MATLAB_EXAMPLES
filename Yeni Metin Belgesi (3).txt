@@ -1,0 +1,11 @@
+clear all;
+clc
+
+Toplam=0;
+N=input('N Sayýsýný Girin: ');
+
+for S=1:1:N
+    Toplam=Toplam+S;
+end
+
+Toplam

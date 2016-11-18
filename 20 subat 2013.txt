@@ -1,0 +1,89 @@
+close all;clear all;clc;
+A=5*sin(pi:pi/16:pi);
+B=10*sin(-2*pi:pi/16:2*pi);
+top=A+B;
+plot(A),hold on,plot(B,'r')
+plot(top);figure(gcf);
+plot(top);figure(gcf);
+hold off
+%birinci yöntem
+for k =1;length(top)
+    if top(k)>5
+        yeni(k)=0;
+    else
+        yeni(k)=top(k);
+    end
+end
+plot(top)
+figure,plot(yeni)
+
+%ikinci yöntem
+kontrol=top<5;
+sonuc=top.*kontrol;
+plot(sonuc);
+----------------------------------------------------------------------------------
+clear all;close all
+a=randi(199,1,250)-49;
+plot(a)
+min(a)
+max(a)
+minyer=find(a==min(a))   % find bulmakomutu genlikli yerin hangi satýrdarda oldugunu bulruz
+maxyer=find(a==max(a))
+ortyer=find(a==floor(mean(a)))
+lojik=a==floor(mean(a))  
+mutlak=abs(a)
+plot(mutlak),figure(gcf)
+mutlak_ters=-1*abs(a)
+----------------------------------------------------------------------------------
+%ödev bi kýsmýný cekelim tras yöntemi ile
+%resmi ters cevirme yöntemi
+AA=imread('cameraman.tif');
+carpi=AA(1:128,1:128);
+imtool(carpi)
+yildiz=AA(1:128,129:end);
+imtool(yildiz)
+unlem=AA(129:end,1:128);
+imtool(unlem)
+tik=AA(129:end,129:end);
+imtool(tik)
+%
+m_carpi=carpi(:,128:-1:1);
+m_yildiz=yildiz(128:-1:1,:);
+m_unlem=unlem(128:-1:1,128:-1:1);
+m_tik=tik;
+son=[m_carpi m_yildiz;m_unlem m_tik];
+imshow(son)
+-------------------------------------------------------------------------------------
+close all
+clear all
+clc
+a=randi(10,2
+
+for k=1:size(a,2);
+    b8k)=a(3,k);
+end
+
+%kolay yolu c=a(3,:end)
+%d=a(3:5,3:8); matris arasýndakileri dolasmal için
+%dizi olusturma C=[a(:,2:3) a(:,6:7)]
+--------------------------------------------------------------------------------------
+close all;
+clear all;
+clc;
+a=double(imread('cameraman.tif'));
+imtool(a,[])
+yeni=a<15;
+imtool(yeni,[])
+
+manuple=a.*yeni;
+imtool(manuple)
+
+for k=1:size(a,2);
+    b(k)=a(3,k);
+end
+
+c=a(3,3:end);
+d=a(3:5,3:8); 
+t(:,:,3)=4*manuple;
+t(:,:,2)=10*manuple;
+t(:,:,3)=4*manuple;

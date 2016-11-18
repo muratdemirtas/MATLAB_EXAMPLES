@@ -1,0 +1,16 @@
+clear all;
+clc;
+N=input('Matrisin uzunlugunu girin: ');
+M=round(10*rand(N))
+
+ for i=1:1:N
+     for j=1:1:N
+         if mod(i+j,2)==0
+             M(i,j)=M(i,j);
+         else 
+             M(i,j)=0;
+         end
+     end
+ end
+ 
+ M

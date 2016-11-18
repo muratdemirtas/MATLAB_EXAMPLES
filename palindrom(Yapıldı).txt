@@ -1,0 +1,43 @@
+clear all;
+clc;
+A=input('Bir kelime giriniz: ','s');
+
+uz=length(A);
+
+for i=1:1:uz
+    B(i)=A(uz-i+1);
+end
+
+k=0;
+
+for i=1:1:uz
+    if A(i)==B(i)
+        k=k+1;
+    end
+end
+
+if k==uz
+    fprintf('Kelimeyi Palindrom');
+else
+    fprintf('Kelime Palindrom Deðil');
+end
+
+
+
+2.Yol
+
+clear all;
+clc;
+A=input('Bir kelime giriniz: ','s');
+
+uz=length(A);
+
+for i=1:1:uz
+    B(i)=A(uz-i+1);
+end
+
+if strcmp(A,B)==1  %Ýki string ayrý ise 1 üretir
+    fprintf('palindrom')
+else
+    fprintf ('palindrom deðil')
+end

@@ -1,0 +1,16 @@
+clear all;
+clc;
+
+A=input('1.sayı: ');
+B=input('2.sayı: ');
+C=input('3.sayı: ');
+
+if(A<B && A<C)
+   
+    min=A;
+elseif(B<C
+    min=B;
+else
+    min=C;
+end
+fprintf........................................

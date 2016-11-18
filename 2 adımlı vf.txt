@@ -1,0 +1,17 @@
+[A]=ort(v,f)function O=ort(v,f)
+
+vize=v;
+final=f;
+
+O=(Vize*0.4)+(final*0.6)
+
+if O>=50
+    fprintf('Baþarýlý\n');
+else
+    fprintf('Dersten Kaldý\n');
+end
+end
+    
+
+
+ v=input('Vizeyi giriniz = ');f=input('Finali Giriniz = ');A=ort(v,f); % 40 vize 60 final

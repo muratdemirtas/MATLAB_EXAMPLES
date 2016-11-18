@@ -1,0 +1,13 @@
+%turev
+syms a x
+f=(a^2)*(x^3)
+diff(f,x)
+diff(f,a) %a ya gore turev almak icin
+
+diff(diff(f,a),x)
+
+diff(diff(f,a),a)
+
+M=[a*x^2sin(x);cos(a*x) sin(x^2)]
+
+diff(M)

@@ -1,0 +1,14 @@
+clear all;
+clc;
+
+t=0:0.1:1;
+
+x=exp(t);
+y=exp(t.^2);
+m=exp(-t);
+n=exp(-t.^2);
+
+figure,subplot(2,2,1),plot(t,x)
+subplot(2,2,2),plot(t,y),grid on
+subplot(2,2,3),plot(t,m),grid on
+subplot(2,2,4),plot(t,n),grid on

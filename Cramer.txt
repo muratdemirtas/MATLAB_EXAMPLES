@@ -1,0 +1,24 @@
+%CRAMER
+
+clear all;
+clc;
+
+A=[1 1 1;-2 1 0;-4 0 1];
+
+if det(A)==0
+    error('matris tekil matristir')
+end
+B=[1 0 0];
+B1=A;
+B2=A;
+B3=A;
+
+B1(:,1)=B
+
+B2(:,2)=B
+
+B3(:,3)=B
+
+x1=det(B1)/det(A)
+x2=det(B2)/det(A)
+x3=det(B3)/det(A)

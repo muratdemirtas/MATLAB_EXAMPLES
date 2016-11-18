@@ -1,0 +1,32 @@
+%%Kopek kimlik kayit programi
+ 
+clear all;
+clc;
+ 
+anamenu=0;
+ N=1;
+while 1
+    anamenu=menu('Kopek Kimlik Kayýt','Kopek Kayýt','Kopek Goster','Çýkýþ');
+    
+    switch anamenu
+
+        case 1
+
+            
+            kopek(N).adi=input('ad: ','s');
+            kopek(N).cinsi=input('cinsi= ','s');
+            kopek(N).yasi=input('yasi= ');
+            N=N+1;
+        case 2
+
+            X=input('kacýncý kopek gosterilsin: ');
+            if(X<N)
+                disp(kopek(X).adi);
+                disp(kopek(X).cinsi);
+                disp(kopek(X).yasi);
+            end
+        case 3
+
+            break
+    end
+end          

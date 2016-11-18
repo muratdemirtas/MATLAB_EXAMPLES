@@ -1,0 +1,21 @@
+%Matrisin en büyük elemanlarýnýn yeri ve kendisini gösteren program
+clear all;
+clc;
+
+A=round(50*rand(4,4))
+[satir sutun]=size(A);
+max=A(1,1);
+sat=1;
+sut=1;
+
+for i=1:1:satir;
+    for j=1:1:sutun;
+        if A(i,j)>max
+            max=A(i,j);
+            sat=i;
+            sut=j;
+       end
+    end
+end
+
+fprintf('Matrisin en büyük elemaný %d''dir %d''.satirdadir ve %d''.sutundadir',max,sat,sut);

@@ -1,0 +1,5 @@
+\t    araya boşluk koyar
+
+A=input('____','s');      karekter atama
+
+hold on  ekranda kalsın diye

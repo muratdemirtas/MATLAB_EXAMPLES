@@ -1,0 +1,1 @@
+a=2 yazsýn,diðer harfleri bir sonraki harfe çevirsin.,büyük harfler -1(bir onceki),küçük harfler +1(1 sonraki) olacak.

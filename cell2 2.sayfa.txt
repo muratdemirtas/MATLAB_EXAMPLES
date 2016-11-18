@@ -1,0 +1,9 @@
+x=input('sayýyý giriniz: ');      %fonksiyonu program dýþýnda yaz.baþka m file de   .
+y=input('matris giriniz: ');
+z=input('harf giriniz: ','s');
+t=input('kelime giriniz: ','s');
+
+A=cell2(x,y,z,t)
+
+
+

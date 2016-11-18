@@ -1,0 +1,10 @@
+clear all;
+clc;
+A=[1 2 3 4]
+B=[1;2;3;4]
+
+K=sum(A)  %elemanlarý topladý.
+L=sum(B)
+A=[1 2 3 4;5 6 7 8;1 2 3 4;5 6 7 8]
+M=sum(C)  %sütunlarý toplar
+R=sum(sumC) %tüm elemanlarýný toplar

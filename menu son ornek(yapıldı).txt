@@ -1,0 +1,20 @@
+clear all;
+clc;
+anamenu=0;   %break çýkýþ için kullanýlýr
+while 1
+anamenu=menu('Kareler Fonksiyonu','x giriþi','y giriþi','z giriþi','baþla','çýkýþ');
+
+switch anamenu
+    case 1
+        x=input('x sayýsýný girin: ');
+    case 2
+        y=input('y sayýsýný girin: ');
+    case 3
+        z=input('z sayýsýný girin: ');
+    case 4
+        f=x^2+y^2+z^2;
+        fprintf('Fonksiyonun Deðeri:%d\n',f);
+    case 5
+       break;
+end
+end

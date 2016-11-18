@@ -1,0 +1,20 @@
+clear all;
+clc;
+
+A=round(25*rand(1,9))
+
+uz=length(A);
+k=uz-1;    %1 eksiði kadar dönsün (yeterli)
+
+while k>=1
+    for i=1:1:k
+        if A(i)>A(i+1)
+            c=A(i);
+            A(i)=A(i+1);
+            A(i+1)=c;
+        end
+    end
+    k=k-1; %k halen birden büyük olduðu sürece devam edecek bu.
+end
+
+A

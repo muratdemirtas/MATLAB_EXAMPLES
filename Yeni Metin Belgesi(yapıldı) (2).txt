@@ -1,0 +1,13 @@
+clear all;
+clc;
+
+x1=input('X1 girin= ')
+y1=input('Y1 girin= ')
+x2=input('X2 girin= ')
+y2=input('Y2 girin= ')
+
+[mesafe egim aci]=vek(x2,x1,y2,y1);
+
+figure,plot([0,x1],[0,y1]),hold on,grid on
+plot([0,x2],[0,y2],'g')
+plot([x1,x2],[y1,y2],'r')

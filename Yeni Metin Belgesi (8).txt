@@ -1,0 +1,1 @@
+[22:12:17] brown: BW = im2bw(I2,graythresh(I2));

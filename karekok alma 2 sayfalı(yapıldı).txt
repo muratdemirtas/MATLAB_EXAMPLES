@@ -1,0 +1,16 @@
+1.sayfa
+
+
+
+%Karekök fonksiyonu kayýt ismi fxn adýyla ayný olmalý
+
+function x=karekok(a)
+x=a^(1/2);
+end
+
+
+2.sayfa
+
+a=input('bir sayý gir:');
+
+C=karekok(a)

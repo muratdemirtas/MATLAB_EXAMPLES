@@ -1,0 +1,6 @@
+clear all;
+clc;
+
+A=input('Sayý gir: ');
+B=input('Karekter gir: ','s');
+C=input('Dizi gir');

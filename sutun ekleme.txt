@@ -1,0 +1,17 @@
+clear,clc
+A=round(5*rand(6,4));
+B=ones(6,4);
+A=A-2*B
+
+[satir sutun]=size(A);
+
+for i=1:1:satir
+    for j=1:1:sutun
+        if j==1
+            A(i,j)=A(i,j);
+        else
+            A(i,j)=A(i,j-1)+A(i,j);
+        end
+    end
+end
+A

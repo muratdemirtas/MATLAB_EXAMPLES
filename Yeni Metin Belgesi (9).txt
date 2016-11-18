@@ -1,0 +1,114 @@
+%iki boyutlu matrisi bir boyuta getirme forlu hali
+close all;
+clc;
+clear all;
+degisken=0;
+
+a=randi(50,256,256);
+for i=1:size(a,1)
+    for j=1:size(a,2)
+        degisken=degisken+1;
+        b(degisken)=a(i,j);
+    end
+end
+imtool(degisken)
+------------------------------------------------------------------------------------
+%bir matrisi tekrar etmek
+close all;clc;clear all;
+eye(3) %birim matrisi verir
+D=eye(3);
+dy=[D D D D;D D D D;D D D D];
+Dyy=repmat(eye(3),3,4);
+------------------------------------------------------------------------------------
+%bir matrisi tekrar etmek
+close all;clc;clear all;
+eye(3) %birim matrisi verir
+D=eye(3);
+dy=[D D D D;D D D D;D D D D];
+Dyy=repmat(eye(3),3,4);
+%bir matrisin satýrla sutununu degistirme
+permute=(eye(3);2;2)
+--------------------------------------------------------------------------------------
+close all;
+clc;
+clear all;
+a=double(imread('as.jpg'));
+[sat sut kod]=size(a);
+imtool(a)
+
+for i=1:1:sat
+    for j=1:1:sut
+        for k=1:size(a)
+      if  a(i,j,k)<150
+      b(i,j,k)=a(i,j,k)<150;
+      end
+    end
+    end
+end
+imtool(b,[])
+------------------------------------------------------------------------------------------
+%iki boyutlu matrisi bir boyuta getirme forsuz hali
+close all;
+clc;
+clear all;
+a=randi(50,256,256);
+c=reshape(a,1,size(a,1)*size(a,2));      %ilki hangi matris sonrakileri satýr sutun girme
+c=reshape(a,size(a,1)*size(a,2))
+-----------------------------------------------------------------------------------------
+close all;clc;
+clear all;
+a=randi(5,3,3,3)
+ay=permute(a,[3 1])
+--------------------------------------------------------------------------------------------
+%lineer kombinasyon
+v=[2 3 4]'
+w=[1 1 1]'
+u=w+v
+x=[-1 2]'
+
+close all;
+clc;
+clear all;
+%cos formülü
+
+v=[4 2]';
+w=[-1 2]';
+coss=v'*w/norm(v)*norm(w);
+
+acos(coss)%acýnýn degerini verir
+acosd(coss) %acýyý derece olarak verir
+---------------------------------------------------------------------------------------------------
+%gauss eliminasyon yöntemi
+close all
+clc
+clear all
+a=[2 4 -2;4 9 -3;-2 -3 7];
+e21=[1 0 0;-2 1 0;0 0 1];
+e31=[1 0 0;0 1 0;1 0 1];
+e31*e21*a;
+e32=[1 0 0;0 1 0;0 -1 1];
+e32*e31*e21*a
+----------------------------------------------------------------------------------------------------
+%gauss eliminasyon yöntemi
+close all
+clc
+clear all
+a=[2 4 -2;4 9 -3;-2 -3 7];
+e21=[1 0 0;-2 1 0;0 0 1];
+e31=[1 0 0;0 1 0;1 0 1];
+e31*e21*a;
+e32=[1 0 0;0 1 0;0 -1 1];
+e32*e31*e21*a
+ART=[a b]
+e32*e31*e21*a*ART
+&ödev elminayon sistemi yap
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+

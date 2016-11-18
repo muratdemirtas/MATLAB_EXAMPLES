@@ -1,0 +1,6 @@
+clear all;
+clc;
+anamenu=0;   %break çýkýþ için kullanýlýr
+
+anamenu=menu('Kareler Fonksiyonu','x giriþi','y giriþi','z giriþi','baþla','çýkýþ');
+

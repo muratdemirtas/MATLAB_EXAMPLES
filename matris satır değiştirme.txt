@@ -1,0 +1,13 @@
+clear all;
+clc;
+% 0 ile 10 arasýnda 3x3 lük matris.
+%ilk satýr 1,ikinci satýr 2,üçüncü satýr 3 ile çarpýlacak
+
+A=round(10*rand(3))
+B=[1;2;3]
+
+C1=B.*A(:,1);
+C2=B.*A(:,2);
+C3=B.*A(:,3);
+
+C=(C1 C2 C3)

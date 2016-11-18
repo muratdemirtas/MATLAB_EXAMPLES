@@ -1,0 +1,8 @@
+% A=fonksiyon_adi (parametreler)
+%Sunuc=topla(a,b)
+[a,b,c]=fonksiyon_adi(x,y,z,m)
+a=x*y
+b=x+z
+c=y-z
+end
+[k l m]fonksiyon adi(3,8,-1)

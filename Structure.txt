@@ -1,0 +1,24 @@
+%% Structure (Yapý) tek bir deðiþken üzerinde farklý farklý bilgileri toplayabiliyoruz.
+clear all;
+clc;
+
+kopek.adi= 'Rocky';
+kopek.cinsi= 'Bulldog';
+kopek.yasi= 1.5;
+
+kopek(2).adi= 'King';
+kopek(2).cinsi= 'chihuahua';
+kopek(2).yasi= 4;
+
+kopek(3).adi= 'lucky';
+kopek(3).cinsi= 'terrier';
+kopek(3).yasi= 7;
+
+A=kopek(2)
+B=kopek(3).cinsi
+C=kopek(1).yasi
+
+
+
+
+

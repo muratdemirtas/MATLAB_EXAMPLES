@@ -1,0 +1,6 @@
+clear all;
+clc;
+
+A=[3; 0; 1]  %Normalde bu boyutlardaki matrisler
+B=[1; 1; -1] %Çarpýlamaz bunun için noktasal çarpým yapmak
+C=A.*B       %gerekir.

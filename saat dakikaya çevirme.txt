@@ -1,0 +1,6 @@
+function [S,Dk,Sn]=faktoriyel(x)
+S=floor(x/3600);
+x=mod(x,3600);
+Dk=floor(x/60);
+Sn=mod(x,60);
+end

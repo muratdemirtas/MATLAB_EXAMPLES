@@ -1,0 +1,19 @@
+%x ve y vererek kareler farkýný tanýmla
+
+anamenu=0;
+
+while 1
+    anamenu=menu('Kareler Farký','X Giriþi','Y Giriþi','Sonuç','Çýkýþ');
+    
+    switch anamenu
+        case 1
+            x=input('X sayýsýný Girin');
+        case 2
+            y=input('Y Sayýsýný Girin');
+        case 3
+            f=x^2-y^2;
+            fprintf('Fonksiyonun Deðeri:%d\n',f);
+        case 4
+            break;
+    end
+end

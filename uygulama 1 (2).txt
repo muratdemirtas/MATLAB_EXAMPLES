@@ -1,0 +1,12 @@
+clear all
+clc
+A=randi(9,3,3)
+
+m=randi(3,1,1)
+n=randi(3,1,1)
+
+b=A(m,n)
+
+for i=1:b
+    fprintf('Ýsimasdasdaa \n')
+end

@@ -1,0 +1,9 @@
+%Klavyeden girilen 5 deðerin ortalamasýný bulan program.
+Toplam=0;
+
+for i=1:1:5
+    A=input('a Sayýsýný Girin: ');
+    Toplam=Toplam+A;
+end
+
+Toplam=Toplam/5

@@ -1,0 +1,18 @@
+% x^2+2*x hata verdi
+%ama x=sym('x') yapýp
+%yaparsan : x^2+2*x 
+%olur
+
+% X=sym(1+i*sqrt(3))
+X
+f=X^2-2*X+6
+simplify(f) %bu iþi kolaylaþtýrmak için yapýlýr.
+
+%M=[.6 .7 .4;.3 .2 .1;.7 .5 .9
+%M=sym(M)
+
+%subs('a+b','a',3)
+
+%sym('f(x)')
+%y=sym('f(x)')
+%dy=(subs(y,'x','x+h')-y)/'h'

@@ -1,0 +1,12 @@
+% syms s  (syms semboliðe çeviriyor)
+% int(sin(s))
+%syms s a
+%int(a+sin(s))
+%int(a+sin(s),s) (ds e gore alýnýr)
+%int(a+sin(s),a) (da ya gore alýnýr)
+
+% x=(pi/4)
+%y=sym(pi/4)
+
+%x=sym(sqrt(5))
+%x=5^(1/2) olur,(yani sembolik olur).

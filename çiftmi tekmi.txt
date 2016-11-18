@@ -1,0 +1,11 @@
+clear all;
+clc;
+
+A=input('Bir Sayý Giriniz=')
+
+B=mod(A,2);
+if(B==0)
+    fprintf('Sayý çifttir.');
+else
+    fprintf('Sayý tektir.');
+end

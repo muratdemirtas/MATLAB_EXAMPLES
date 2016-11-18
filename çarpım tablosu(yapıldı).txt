@@ -1,0 +1,11 @@
+close all;
+clear all;
+clc;
+
+for i=1:1:10      %Satýr
+    for j=1:1:10  %Sütun
+        C=i*j;
+        fprintf('%d\t',C);
+    end
+    fprintf('\n');
+end

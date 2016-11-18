@@ -1,0 +1,18 @@
+clear all;
+clc;
+
+A=round(25*rand(1,9));
+
+uz=length(A);
+
+for j=2:1:uz
+    for i=j:-1:2
+        if  A(i)<A(i-1)
+            c=A(i);
+            A(i)=A(i-1);
+            A(i-1)=c;
+        end
+    end
+end
+A
+       

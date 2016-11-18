@@ -1,0 +1,27 @@
+%Switch Case
+
+clear all,clc;
+
+a=input('Sýnýfýnýzý girin=');
+switch (a)
+    case 1
+        fprintf('1.sýnýföðrencisi')
+    case 2
+        fprintf('2.sýnýf öðrencisi')
+    case 3
+        fprintf('3.sýnýf öðrencisi')
+    case 4
+        fprintf('4.sýnýf öðrencisi')
+    case 5
+        fprintf('5.sýnýf öðrencisi')
+    case 6
+        fprintf('6.sýnýf öðrencisi')
+    case 7
+        fprintf('7.sýnýf öðrencisi')
+    case 8
+        fprintf('8.sýnýf öðrencisi')
+    case 9
+        fprintf('9.sýnýf öðrencisi')
+    otherwise
+        fprintf('Sýnýf bilgisi yanlýþ girilmiþ')
+end

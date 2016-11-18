@@ -1,0 +1,18 @@
+clear all;
+clc;
+
+A=round(25*rand(1,9));
+
+uz=length(A);
+
+for j=1:1:uz-1
+    min=j;
+    for i=j+1:1:uz
+        if A(i)<A(min)
+            min=i;
+        end
+    end
+    c=A(j);
+    A(j)=A(min);
+    A(min)=c;
+end

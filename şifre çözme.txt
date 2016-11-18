@@ -1,0 +1,14 @@
+þifre çözme
+for k=1:uz
+    if b(k)=='2';
+        c(k)='a';
+    elseif b(k)>=98 && b(k) <=123
+        c(k)=b(k)-1;
+    elseif b(k)>=64 && b(k)<=98
+        c(k)=b(k)+1;
+    else
+        c(k)=b(k);
+    end
+end
+c
+        

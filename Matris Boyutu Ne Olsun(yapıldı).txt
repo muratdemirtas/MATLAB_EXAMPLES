@@ -1,0 +1,15 @@
+clear all;
+clc;
+x=input('Matris boyutu ne olsun= ')
+
+A=round(10*rand(x))
+
+for i=1:1:length(A)
+    B(i,1)=i;
+end
+
+for i=1:1:length(A)
+    C(:,i)=B.*A(:,i);
+end
+
+C

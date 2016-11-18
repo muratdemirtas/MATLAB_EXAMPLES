@@ -1,0 +1,21 @@
+clear all;
+clc;
+
+anamenu=0;
+P=1;
+S=1
+while 1
+    anamenu=menu('Foksiyon Çiz','Periyot','Örnek Sayýsý','Sinüs','Cosinüs','Çýkýþ');
+    
+t=0:2*pi/S:2*pi*P;
+switch anamenu
+    case 1
+        P=input('');
+    case 2
+        S=input('');
+    case 3
+        y=sin(t);
+        figure,plot(t,y),grid on,title('Sin Grafiði')
+    case 4
+        x=cos(t);
+        figure,plot(t,x)

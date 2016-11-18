@@ -1,0 +1,9 @@
+Ýsim    Not    Not2
+Ali     77     79
+Burak   100    86
+Celal   95     91
+Deniz   33     77
+Elif    47     85
+Feray   78     86
+Gokhan  16     50
+Halis   89     79

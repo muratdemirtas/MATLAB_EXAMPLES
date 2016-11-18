@@ -1,0 +1,1 @@
+%GRAM SCHMÝDT yönteminin kodunu yaz **** sýnavda cýkabilir

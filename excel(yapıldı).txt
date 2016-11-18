@@ -1,0 +1,9 @@
+A=xlsread('Matris')   %excelden gelen matris
+ 
+B='test.xls';    % kayýt edilecek excel dosya adý
+
+C=-3*A;   %yeni matris (kayýt edilecek)
+
+% xlswrite(Yazýlacak dosya,içine atacaðýmýz veri (yazýlacak veri),yazýlacak excel sayfasý);
+
+xlswrite(B,C,7);

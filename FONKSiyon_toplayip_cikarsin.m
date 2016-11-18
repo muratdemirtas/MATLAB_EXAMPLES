@@ -1,0 +1,6 @@
+function [a,b]=bla bla d (x,y)
+a=x+y;
+b=x*y;
+
+end   %command windowa [a,b]=toplacarp(8,9) yapýnca sonuç çýkýyor.
+

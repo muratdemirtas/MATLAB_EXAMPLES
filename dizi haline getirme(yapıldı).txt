@@ -1,0 +1,14 @@
+close all;
+clear all;
+clc;
+
+A=0;
+for i=1:1:10
+    A(i)=i^2;
+    fprintf('%d\t',A(i))
+end
+
+
+
+
+A(5) yazýnca a dizisinin 5.elemaný ortaya çýkar.

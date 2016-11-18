@@ -1,0 +1,18 @@
+clear all;
+close all;
+clc;
+
+A=input('Karenin için k,dikdörtgen için d giriniz= ','s');
+if(A=='k')
+    B=input('Kareenin kenarini girin: ');
+    Alan=B*B;
+    fprintf('Karenin alaný  %f',Alan);
+elseif(A=='d')
+    B=input('Dikdörtgenin bir kenarýný girin: ');
+    C=input('Dikdörtgenin diðer kenarýný girin: ');
+    Alan=B*C;
+    fprintf('Dikdörtgenin alaný %f',Alan);
+else
+    fprintf('Yanlýþ karekter girdiniz');
+end
+    

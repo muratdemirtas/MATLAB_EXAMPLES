@@ -1,0 +1,13 @@
+%% Baþlýklý Text Dosyasýný Okumak
+clear all;
+clc;
+
+dosya=importdata('AX.txt')
+%%Dosya içeriðini görmek
+
+dosya.data
+dosya.textdata
+
+%%Ýçeriden Bir Elemana Eriþmek
+
+A=dosya.data(3,2)   

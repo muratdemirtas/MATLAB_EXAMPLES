@@ -1,0 +1,28 @@
+clear all,clc
+%Cell (Hücre)
+% Hem harfleri hem sayýlarý ayný dizi içine atabileceðiz
+
+x={5}
+
+y(1,1)={8}
+z(1,1)={[1 2 3;4 5 6;7 8 9]}
+
+m(2,2)={[1,1;1,1]}  %, demek araya  boþluk koyar
+
+k(1,1)={'ali'}  %kelime tanýmlarken týrnak
+k(1,2)={5}
+k(2,1)={1:4} %i=1:10 for gibi
+k(2,2)={[1 2 3;4 5 6;7 8 9]}
+
+n=[m k]
+
+%%Cell içeriðine eriþmek
+
+k{1,1}
+k{2,1}
+m{2,2}
+m{1,1}
+
+%% Cell'den Eleman çekmek
+c=k(2,2)  %Hücre çekmek
+d=k{2,2}  %Hücreden elemean çekmek (deðiþken)

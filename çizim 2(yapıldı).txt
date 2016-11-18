@@ -1,0 +1,10 @@
+clear all;
+clc;
+
+t=0:pi/20:2*pi;
+x=0:pi/5:2*pi;
+y=sin(t);
+z=sin(x);
+
+figure,plot(t,y),grid on
+figure,plot(x,z),grid on
